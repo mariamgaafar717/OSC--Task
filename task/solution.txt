@@ -2,14 +2,12 @@ mkdir mariamgaafar
 cd mariamgaafar/
 touch one.txt two.txt three.txt four.txt
 mkdir BAD
-cd BAD
 touch bad.txt
-cd..
+mv bad.txt /home/osc/BAD
 mv one.txt /home/osc/Downloads
 cd /home/osc/Downloads
 cp one.txt copy.txt
-cd..
-cd mariamgaafar/
+cd home/osc/mariamgaafar
 nano two.txt
 echo "1-hello osc 2-hello osc 3-hello osc 4-hello osc 5-hello osc 6-hello osc 7-hello osc 8-hello osc"
 mv three.txt hello.txt
