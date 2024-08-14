@@ -1,11 +1,8 @@
 mkdir mariamgaafar
-cd mariamgaafar/
 touch one.txt two.txt three.txt four.txt
 mkdir BAD
 touch bad.txt
-mv bad.txt /home/osc/BAD
 mv one.txt /home/osc/Downloads
-cd /home/osc/Downloads
 cp one.txt copy.txt
 cd home/osc/mariamgaafar
 nano two.txt
