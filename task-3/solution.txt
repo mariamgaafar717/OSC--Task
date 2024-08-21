@@ -21,7 +21,7 @@ find ~/project_files/logs -type f
 ln -s ~/project_files/data/data.csv ~/project_files/link_data.csv
 nano ~/project_files/link_data.csv
 cat ~/project_files/data/data.csv
-rm ~/project_files/data/data.csv
+rm ~/project_files/data/link_data.csv
 touch ~/project_files/summary.txt
 echo "summary start" > ~/project_files/summary.txt
 date >> ~/project_files/summary.txt
