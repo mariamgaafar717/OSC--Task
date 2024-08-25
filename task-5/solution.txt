@@ -1,0 +1,2 @@
+cut -d "," -f2 info.csv | sort -u > emails.txt
+ps -eo pid,cmd --sort=cmd | grep -v '^PID' > processes.txt
